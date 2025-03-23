@@ -1,0 +1,69 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+.nav-list {
+	font-family: 'Carme';
+	text-align: center;
+}
+
+.nav-list .item {
+	color: blueviolet;
+}
+
+.title {
+	font-family: 'Oswald';
+	font-weight: 700;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: line-through;
+	text-decoration-color: blue;
+}
+
+.sub-title {
+	font-family: 'Oswald';
+	font-size: 40px;
+	color: orange;
+	text-align: center;
+	text-shadow: 5px 5px 12px red;
+}
+
+.section-first .text {
+	font-family: 'Carme';
+	color: green;
+	text-align: right;
+}
+
+.section-second .text {
+	font-family: 'Gilroy';
+	font-weight: 300;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+.section-ecobazar {
+	color: #808080;
+	font-family: 'Poppins';
+}
+
+.ecobazar-title {
+	color: #1A1A1A;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 16px;
+}
+
+.section-ecobazar .text {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+
+.shadow {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-social .social-link {
+	color: darkred;
+}
