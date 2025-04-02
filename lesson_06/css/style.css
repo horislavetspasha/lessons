@@ -1,0 +1,204 @@
+@import url("reset.css");
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: clip;
+}
+
+.header {
+	color: white;
+	height: 150px;
+	background: radial-gradient(circle, rgba(0,2,13,1) 0%, rgba(251,70,252,1) 100%);
+}
+
+.title {
+	font-size: 50px;
+	margin: 0 auto;
+	padding: 20px;
+	width: fit-content;
+	border-top: 5px solid blue;
+	border-right: 5px dotted yellow;
+	border-bottom: 5px double green;
+	border-left: 5px dashed orange;
+}
+
+.ecobazar {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #808080;
+	background-color: white;
+	max-width: 678px;
+	margin: 0 auto;
+	padding: 50px 15px;
+}
+
+.description-text {
+	line-height: 1.5;
+}
+
+.description p + p {
+	margin-top: 24px;
+	margin-bottom: 20px;
+}
+
+.description-list {
+	margin-bottom: 20px;
+}
+
+.description-item {
+	line-height: 1.4;
+	margin-bottom: 14px;
+	min-height: 20px;
+	padding-left: 30px;
+  background: url("../img/check.svg") 0 0 / 20px no-repeat;
+}
+
+.about {
+	background: #302C42 url("../img/hydra_bg.png") center no-repeat;
+}
+
+.сontainer-hydra-about {
+	max-width: 1300px;
+	padding: 70px 15px;
+	margin: 0 auto;
+}
+
+.about-img {
+	margin-right: 111px;
+	border-radius: 240px 100px;
+  overflow: clip;
+  max-width: 524px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.20)
+}
+
+.about-img img {
+	width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-description {
+	display: inline-block;
+	max-width: 630px;
+	color: #FFF;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.5;
+}
+
+.about-description, 
+.about-img {
+	vertical-align: middle;
+}
+
+.about-head {
+	margin-bottom: 42px;
+}
+
+.about-title {
+	text-transform: uppercase;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 5px;
+}
+
+.about-subtitle {
+	text-transform: uppercase;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.about-text {
+	font-size: 16px;	
+	font-weight: 400;
+}
+
+.about-text p {
+	margin-bottom: 28px;
+}
+
+.about-link {
+	text-transform: uppercase;
+	color: #343045;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	width: 214px;
+	height: 48px;
+	border-radius: 40px;
+	padding: 17px 43px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.info {
+	background-color: #302C42;
+}
+
+.info-container {
+	max-width: 1300px;
+	padding: 70px 15px;
+	margin: 0 auto;
+}
+
+.info-contacts {
+	height: 167px;
+	border-radius: 90px;
+	padding: 33px 66px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.contacts-title {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 9px;
+}
+
+.contacts-link {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.contacts {
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	vertical-align: middle;
+	line-height: 1.1;
+	max-width: 400px;
+}
+
+.contacts-location, 
+.contacts-phone {
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	padding-right: 45px;
+  margin-right: 45px;
+}
+
+.contacts-location {
+	padding-left: 55px;
+	background: url("../img/location.svg") 0 50% / 45px no-repeat;
+	min-height: 40px;
+}
+
+.contacts-phone {
+	padding-left: 55px;
+	background: url("../img/phone.svg") 0 50% / 45px no-repeat;
+	min-height: 40px;
+
+}
+
+.contacts-email {
+	padding-left: 55px;
+	background: url("../img/mail.svg") 0 50% / 45px no-repeat;
+	min-height: 40px;
+}
